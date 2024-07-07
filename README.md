@@ -30,14 +30,13 @@ To interact with this contract, you will need:
    - `resetValue()`: Reset the stored value to zero.
    - `increaseValue(uint256 newValue)`: Increase the stored value by `newValue`.
    - `decreaseValue(uint256 decrementValue)`: Decrease the stored value by `decrementValue`.
+   - `isOwner()`: Check if the caller is the contract owner.
+   - `getCurrentValue()`: Retrieve the current stored value.
 
    Ensure operations are performed by the contract owner to avoid permission errors.
 
 ### Authors
 
-- [Your Name](https://github.com/yourusername) - Contact: your@email.com
+- [Raphaelo D. Del Ayre]
 
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
